@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+logs/*.log
+
+# Generated outputs (regenerate with scripts/)
+reports/*.csv
+reports/*.json
+data/*.csv
+
+# Secrets
+.env
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
